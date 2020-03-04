@@ -1,49 +1,117 @@
 <!DOCTYPE html>
     <html>
         <head>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+          <title>Philosophie Abschlussprojekt</title> 
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <link rel="stylesheet" type="text/css" href="sytle.css">
+          <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
         </head>
+
         <body>
+
+            <!--Header------------------------------------------------------->
+
             <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Philosophie Abschlussprojekt 20202</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                          </div>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                      </ul>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </nav>
+                <div id="Logo"> 
+                  <a href="#">
+                    <img src="E:\Bilder\Toast.png" alt="Logo">
+                  </a>
+                </div>
+
+                <nav id="main-nav">
+                  <ul>
+                    <li><a href="#home"></a>Home</li>
+                    <li><a href="#about"></a>About</li>
+                    <li><a href="#work"></a>Work </li>
+                    <li><a href="#contact"></a>Contact</li>
+                  </ul>
+                </nav>
             </header>
+
+            <!--Home------------------------------------------------------->
+
+            <section id="home">
+              <h1>Philosophie Abschlussprojekt</h1>
+              <h2>Tmon Z., Julian J., Rocco B.</h2>
+              <a href="#about">
+                <img src="img/pfeil.png" alt="Pfeil">
+              </a>
+            </section>
+
+            <!--About------------------------------------------------------->
+
+            <section>
+              <h3>About</h3>
+              <hr>
+              <img src="img/avatar" alt="Avatar">
+              <h4>Rocco / Hi</h4>
+              <p>afbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmaseafbsdzudmase</p>
+            </section>
+
+            <!--Work------------------------------------------------------->
+
+            <section id="#work">
+              <h3>Work</h3>
+              <hr>
+
+              <div id="projects">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="http://placehold.it/280x170" alt="projekt_01">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placehold.it/280x170" alt="projekt_02">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placehold.it/280x170" alt="projekt_03">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placehold.it/280x170" alt="projekt_04">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placehold.it/280x170" alt="projekt_05">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="http://placehold.it/280x170" alt="projekt_06">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <!--Contact------------------------------------------------------->
+
+            <section id="#contact">
+              <h3>Contact</h3>
+              <hr>
+
+
+              <form>
+                <input type="email" tabindex="1" placeholder="E-Mail"><br>
+                <input type="text" tabindex="2" placeholder="Btreff"><br>
+                <textarea tabindex="3" placeholder="Nachricht"></textarea><br>
+                <input calss="button" type="submit">
+              </form>
+            </section>
+
+            <!--Footer------------------------------------------------------->
+
             <footer>
-              Hi
+              <p>
+                &copy; 2020 Rocco Bernasconi
+              </p>
             </footer>
         </body>
     </html>
